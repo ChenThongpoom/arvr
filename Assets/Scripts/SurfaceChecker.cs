@@ -14,6 +14,9 @@ public class SurfaceChecker : MonoBehaviour
 
     public GameObject placementIndicator;
     public GameObject spawnObject;
+    public GameObject nametxt;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,7 @@ public class SurfaceChecker : MonoBehaviour
         {
             // the player touches the screen on the prefab
             Instantiate(spawnObject, placementPose.position, placementPose.rotation);
+            
         }
 
 
@@ -44,6 +48,7 @@ public class SurfaceChecker : MonoBehaviour
             //update position and rotation base on the placementPose
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
+            nametxt.transform.SetPositionAndRotation(placementPose.position+new Vector3(0f,2f,0f), placementPose.rotation);
         }
         else
         {
