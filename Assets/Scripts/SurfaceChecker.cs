@@ -72,6 +72,7 @@ public class SurfaceChecker : MonoBehaviour
 
             Vector3 cameraForward = Camera.current.transform.forward;
             Vector3 cameraBearing = new Vector3(cameraForward.x, 0f, cameraForward.z).normalized;
+            
             placementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
 

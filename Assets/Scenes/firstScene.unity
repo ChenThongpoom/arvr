@@ -645,7 +645,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001026252}
-  m_Text: 'Thongpoom Chen
+  m_Text: 'THONGPOOM CHEN
 
     61011353'
   m_OffsetZ: 0
@@ -660,7 +660,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: aeed2d5e704ae49a5baa45e6ae516df9, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 2835296754
+    rgba: 2835284210
 --- !u!23 &1001026255
 MeshRenderer:
   m_ObjectHideFlags: 0
